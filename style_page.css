@@ -1,0 +1,356 @@
+#FBFFCD #001F36 #1C5560 #201E43 #000000
+*{
+    margin: 0;
+    padding: 0;
+}
+header, nav, main, footer{
+    width: 100%;
+    color: #FBFFCD;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+header{
+    height: 150PX;
+    background-color:#2C5944;
+}
+nav{
+
+    height: 50px;
+    background-color: #7EA67C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-list, ul{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+.nav-list, li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+main{
+    height: auto;
+    background-color: #D9C8BF;
+             }
+main nav{
+    width: 600px;
+    height: 80px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+             }
+footer{
+    height: 50px;
+    background-color: #734343;
+    text-align: center;
+}
+section{
+    width: 800px;
+    height: auto;
+    background-color: #2C5944;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;     
+}
+H2{
+    margin-bottom: 30px;
+}
+h1,h5{
+     text-align: center;
+     padding: 30px;
+     color: #FBFFCD;
+}
+p{
+    margin-bottom: 20px;
+    color: #FBFFCD;
+}
+p a:visited{
+    color:#201E43;
+}
+p a:link{
+    color:#FBFFCD;
+    font-weight: bolder;
+}
+p a:active{
+    color:orange;
+}
+ul li{ 
+    width: 68px;
+    background-color: #FBFFCD; 
+    color: #000000; 
+    padding: 10px; 
+    border-radius: 10px;
+    text-decoration: none;
+}
+ul li a{
+    text-decoration: none; 
+    color: #79AE92;
+}
+nav li :hover, nav li:hover{
+    background-color: #79AE92;
+    color:#FBFFCD;
+}
+img{
+    display: block;
+    width: 400px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+#bosque4_img{
+    width: 250;
+    height: auto;
+    float: right;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+p{
+    margin-bottom: 15px;  
+}
+#bosque_icono{
+    width: 50px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}
+#fantasma_img {
+    width: 180;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}    
+#img_filtro img{
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    display: inline-block;
+        
+}
+#img_filtros {
+    text-align: center;    
+}
+
+#filtro1{
+    filter: brightness(200%);
+}
+
+#filtro2{
+    filter: contrast(50%);
+}
+
+#filtro3{
+    filter: grayscale(100%);
+}
+
+#filtro4{
+    filter: sepia(100%);
+}
+
+#filtros5{
+    filter: saturate(200%);
+}
+
+#filtro6{
+    filter: opacity(40%);
+}
+
+#filtro7{
+    filter: invert(100%):
+}
+
+#filtro8{
+    filter: blur(5px);
+}
+
+#filtro9{
+    filter: drop-shadow(10px 10px 5px black);
+}
+
+#filtro10{
+    filter: contrast(100%) drop-shadow(10px 10px 5px black);
+}
+#filtro11{
+    filter: opacity(60%) contrast(50%) brightness(50%);
+}
+#filtro12{
+    filter: brightness(200%) sepia(150%);
+}
+tabla{ 
+    width: 200px;
+    height: auto;
+}
+
+tabla{ 
+    color: #FBFFCD;
+    margin: 0 auto;
+    padding: 10px;
+    border: 3px solid #fbffcd;
+    border-spacing: 10px;
+}
+tabla th table td{ 
+    padding: 10px;
+}
+
+#tabla1 { 
+    width: 90%;
+    border-collapse: separate; 
+    border-spacing: 0; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px;
+    margin: 20px auto;
+    text-decoration-color: aliceblue;
+}
+
+#tabla1 th { 
+    background-color: #734343;
+    color: #FBFFCD;
+    height: 50px; 
+    border: 10px solid transparent;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3) inset; 
+}
+
+#tabla1 tbody {  
+    background-color: #734343;
+    color: #FBFFCD; 
+    margin: 10px;
+}   
+
+#tabla1 td {
+    padding: 5px;
+    text-align: center; 
+    height: 40px; 
+    border: 10px solid transparent; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3) inset; 
+}
+
+#tabla2 { 
+    width: 90%;
+    border-collapse: separate;
+    border-spacing: 0; 
+    margin: 20px auto; 
+    overflow: hidden; 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); 
+    background-color: #FBFFCD;
+}
+#tabla2 thead tr th {
+    background-color: #734343; 
+    color: #FBFFCD; 
+    padding: 15px; 
+    text-align: left; 
+    border-bottom: 4px solid #734343; 
+}
+#tabla2 tbody tr td {
+    padding: 15px; 
+    text-align: center; 
+    border: 2px solid #734343; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+#tabla4 { 
+    width: 90%;
+    border-collapse: collapse; 
+    margin: 20px auto; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    box-shadow: 0 2px 15px; 
+}
+#tabla4 thead tr th {
+    background-color: #734343; 
+    color: #FBFFCD; 
+    padding: 15px; 
+    text-align: left; 
+    border: 3px solid black; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+
+#tabla4 tbody tr:nth-child(even) { 
+    background-color: #FBFFCD; 
+}
+
+#tabla4 tbody tr:nth-child(odd) {
+    background-color: #734343; 
+}
+
+#tabla4 tbody tr td {
+    padding: 10px; 
+    text-align: center; 
+    border: 3px solid #000000; 
+    border-radius: 5px;
+}
+
+#tabla4 tbody tr td {
+    color: #000000; 
+}
+
+#tabla4 tbody tr:hover {
+    background-color: #734343; 
+    color: #FBFFCD; 
+}
+
+#tabla3 { 
+    width: 90%;
+    border-collapse: collapse; 
+    margin: 20px auto; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    box-shadow: 0 2px 15px; 
+}
+#tabla3 thead tr th {
+    background-color: #734343; 
+    color: #FBFFCD; 
+    padding: 15px; 
+    text-align: left; 
+    border: 3px solid black; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+
+#tabla3 tbody tr:nth-child(even) { 
+    background-color: #FBFFCD; 
+}
+
+#tabla3 tbody tr:nth-child(odd) {
+    background-color: #734343; 
+}
+
+#tabla3 tbody tr td {
+    padding: 10px; 
+    text-align: center; 
+    border: 3px solid #000000; 
+    border-radius: 5px;
+}
+
+#tabla3 tbody tr td {
+    color: #000000; 
+}
+body {
+    font-family: 'Addington CF', sans-serif;
+}
+h1 {
+    font-family: 'Georgia', serif;
+}
+p {
+    font-family: 'Helvetica', sans-serif;
+}
+code {
+    font-family: 'Courier New', monospace;
+}
+#miBloque {
+    font-family: 'Tahoma', sans-serif;
+}
