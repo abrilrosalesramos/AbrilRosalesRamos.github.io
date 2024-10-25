@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-header, nav, main, footer{
+header, nav, main, footer, body{
     width: 100%;
     color: #FBFFCD;
     margin: 0 auto;
