@@ -83,7 +83,7 @@
             <p>  
             Por favor, tómate un momento para completar este formulario. Tus respuestas nos ayudarán a conocerte mejor y entender tus preferencias. Agradecemos tu participación.    
             </p>
-                
+          <article>     
         <h2>Iniciar Sesión</h2>
         <form action="form2" method="get">
             <label for="nombre">Nombre:</label>
@@ -148,29 +148,50 @@
                 <option value="venezuela">Venezuela</option>
             </select>
             
-             <label for="pais">¿En qué país vives?</label>
-            <input type="text" id="pais" name="pais" required>
+             <label for="ciudad-nacimiento">1. ¿En qué ciudad naciste?</label><br>
+        <input type="text" id="ciudad-nacimiento" name="ciudad-nacimiento" maxlength="50" required><br><br>
 
-            <label for="ciudad">¿Cuál es tu ciudad?</label>
-            <input type="text" id="ciudad" name="ciudad" required>
+        <label for="continente">2. ¿En qué continente resides actualmente?</label><br>
+        <select id="continente" name="continente" required>
+            <option value="">Selecciona uno</option>
+            <option value="africa">África</option>
+            <option value="asia">Asia</option>
+            <option value="europa">Europa</option>
+            <option value="america">América</option>
+            <option value="oceania">Oceanía</option>
+        </select><br><br>
 
-            <label for="trabajo">¿Cuál es tu ocupación?</label>
-            <input type="text" id="trabajo" name="trabajo" required>
+        <label for="num-mascotas">3. ¿Cuántas mascotas tienes?</label><br>
+        <input type="number" id="num-mascotas" name="num-mascotas" min="0" required><br><br>
 
-            <label for="hobby">¿Cuál es tu pasatiempo favorito?</label>
-            <input type="text" id="hobby" name="hobby" required>
+        <label for="fecha-viaje">4. ¿Cuál fue la fecha de tu último viaje?</label><br>
+        <input type="date" id="fecha-viaje" name="fecha-viaje" required><br><br>
 
-            <label for="comida">¿Cuál es tu comida favorita?</label>
-            <input type="text" id="comida" name="comida" required>
+        <label>5. ¿Tienes licencia de conducir?</label><br>
+        <input type="radio" id="licencia-si" name="licencia" value="si" required>
+        <label for="licencia-si">Sí</label>
+        <input type="radio" id="licencia-no" name="licencia" value="no">
+        <label for="licencia-no">No</label><br><br>
 
-            <label for="pelicula">¿Cuál es tu película favorita?</label>
-            <input type="text" id="pelicula" name="pelicula" required>
+        <label for="telefono">6. ¿Cuál es tu número de teléfono?</label><br>
+        <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" placeholder="10 dígitos" required><br><br>
 
-            <label for="libro">¿Cuál es tu libro favorito?</label>
-            <input type="text" id="libro" name="libro" required>
+        <label for="satisfaccion">7. ¿Qué tan satisfecho estás con tu trabajo actual? (1-10)</label><br>
+        <input type="range" id="satisfaccion" name="satisfaccion" min="1" max="10" required><br><br>
 
-            <label for="musica">¿Qué tipo de música te gusta?</label>
-            <input type="text" id="musica" name="musica" required>
+        <label for="color-favorito">8. ¿Cuál es tu color favorito?</label><br>
+        <input type="color" id="color-favorito" name="color-favorito" required><br><br>
+
+        <label for="hobbies">9. Describe tus hobbies</label><br>
+        <textarea id="hobbies" name="hobbies" rows="4" cols="50" maxlength="200"></textarea><br><br>
+
+        <label>10. ¿Cuáles de estos medios usas regularmente?</label><br>
+        <input type="checkbox" id="tv" name="medios" value="tv">
+        <label for="tv">Televisión</label><br>
+        <input type="checkbox" id="radio" name="medios" value="radio">
+        <label for="radio">Radio</label><br>
+        <input type="checkbox" id="internet" name="medios" value="internet">
+        <label for="internet">Internet</label><br><br>
 
             <label for="viaje">¿Cuál es el mejor viaje que has realizado?</label>
             <textarea id="viaje" name="viaje" rows="4" required></textarea>
@@ -180,7 +201,8 @@
             
             <input type="submit" value="Enviar">
         </form>
-			</section>
+	  </article>
+	</section>
         </main>
         <footer>Elaborado por Abril Lisseth Rosales Ramos</footer>
     </body>
